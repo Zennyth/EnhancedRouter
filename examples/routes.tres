@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RouteRecordDatabase" load_steps=5 format=3 uid="uid://e8vcsi8axbtl"]
+
+[ext_resource type="Script" path="res://addons/enhanced_router/scripts/core/route_record.gd" id="1_67td7"]
+[ext_resource type="Script" path="res://addons/enhanced_router/scripts/core/route_record_database.gd" id="1_ef7qu"]
+
+[sub_resource type="Resource" id="Resource_rpmho"]
+script = ExtResource("1_67td7")
+url = "/test"
+
+[sub_resource type="Resource" id="Resource_xoyqm"]
+script = ExtResource("1_67td7")
+url = "/test/2"
+
+[resource]
+script = ExtResource("1_ef7qu")
+_resources = Array[Resource]([SubResource("Resource_rpmho"), SubResource("Resource_xoyqm")])

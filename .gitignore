@@ -1,0 +1,5 @@
+addons/enhanced_common
+addons/enhanced_resource
+!addons/.editorconfig
+# Godot 4+ specific ignores
+.godot/

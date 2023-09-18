@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Route" load_steps=2 format=3 uid="uid://bx7l2bvvmldbf"]
+
+[ext_resource type="Script" path="res://addons/enhanced_router/scripts/core/route.gd" id="1_pu6om"]
+
+[resource]
+script = ExtResource("1_pu6om")
+to = "/test"
