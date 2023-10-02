@@ -8,3 +8,6 @@ class_name RouteRecord
 
 var name: String:
     get: return url
+
+@export_group("Resource")
+@export var icon: Texture
